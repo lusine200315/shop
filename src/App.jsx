@@ -4,8 +4,6 @@ import { ProductList } from './components/ProductList'
 import { Basket } from './components/Basket'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   const [basket, setBasket] = useState([]);
   const [hide, setHide] = useState(false);
 
