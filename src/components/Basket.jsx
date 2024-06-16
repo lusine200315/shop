@@ -8,7 +8,7 @@ export const Basket = ({items, onAddCount, onRemoveCount, onRemoveItem, onCheck,
             <h3>Basket</h3>
             {items.length ?
             <>
-                <button className={`${hide ? 'hide' : ''}`} onClick={onCheck}>Sale</button>
+                {/* <button className={`${hide ? 'hide' : ''}`} onClick={onCheck}>Sale</button> */}
                 <br />
                 <br />
                 <table>
